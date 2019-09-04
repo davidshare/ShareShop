@@ -821,9 +821,10 @@ var menu_item_styles = __webpack_require__(17);
 
 var MenuItem_MenuItem = function MenuItem(_ref) {
   var title = _ref.title,
-      imageUrl = _ref.imageUrl;
+      imageUrl = _ref.imageUrl,
+      size = _ref.size;
   return react_default.a.createElement("div", {
-    className: "menu-item",
+    className: "".concat(size, " menu-item"),
     style: {
       backgroundImage: "url(".concat(imageUrl, ")")
     }
@@ -910,11 +911,13 @@ function (_Component) {
       }, this.state.sections.map(function (_ref) {
         var title = _ref.title,
             imageUrl = _ref.imageUrl,
-            id = _ref.id;
+            id = _ref.id,
+            size = _ref.size;
         return react_default.a.createElement(MenuItem_MenuItem, {
           key: id,
           title: title,
-          imageUrl: imageUrl
+          imageUrl: imageUrl,
+          size: size
         });
       }));
     }
