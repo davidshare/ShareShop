@@ -938,8 +938,8 @@ var homepage_component_HomePage = function HomePage() {
 };
 
 /* harmony default export */ var homepage_component = (homepage_component_HomePage);
-// EXTERNAL MODULE: ./src/pages/homepage/homepage.styles.scss
-var homepage_styles = __webpack_require__(19);
+// EXTERNAL MODULE: ./src/App.scss
+var src_App = __webpack_require__(19);
 
 // CONCATENATED MODULE: ./src/App.js
 
@@ -974,12 +974,12 @@ function (_Component) {
   return App;
 }(react["Component"]);
 
-/* harmony default export */ var src_App = (App_App);
+/* harmony default export */ var src_App_0 = (App_App);
 // CONCATENATED MODULE: ./src/index.js
 
 
 
-Object(react_dom["render"])(react_default.a.createElement(src_App, null), document.getElementById('root'));
+Object(react_dom["render"])(react_default.a.createElement(src_App_0, null), document.getElementById('root'));
 
 /***/ })
 /******/ ]);
