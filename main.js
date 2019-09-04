@@ -319,7 +319,7 @@ module.exports = _inherits;
 /* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(16);
+module.exports = __webpack_require__(17);
 
 
 /***/ }),
@@ -734,6 +734,12 @@ module.exports = _setPrototypeOf;
 
 /***/ }),
 /* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+/* 17 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -766,7 +772,64 @@ var getPrototypeOf_default = /*#__PURE__*/__webpack_require__.n(getPrototypeOf);
 var inherits = __webpack_require__(7);
 var inherits_default = /*#__PURE__*/__webpack_require__.n(inherits);
 
+// CONCATENATED MODULE: ./src/components/homepage.component.js
+
+
+var homepage_component_HomePage = function HomePage() {
+  return react_default.a.createElement("div", {
+    className: "homepage"
+  }, react_default.a.createElement("div", {
+    className: "directory-menu"
+  }, react_default.a.createElement("div", {
+    className: "menu-item"
+  }, react_default.a.createElement("div", {
+    className: "content"
+  }, react_default.a.createElement("h1", {
+    className: "title"
+  }, "HAT"), react_default.a.createElement("span", {
+    className: "subtitle"
+  }, "SHOP NOW"))), react_default.a.createElement("div", {
+    className: "menu-item"
+  }, react_default.a.createElement("div", {
+    className: "content"
+  }, react_default.a.createElement("h1", {
+    className: "title"
+  }, "JACKETS"), react_default.a.createElement("span", {
+    className: "subtitle"
+  }, "SHOP NOW"))), react_default.a.createElement("div", {
+    className: "menu-item"
+  }, react_default.a.createElement("div", {
+    className: "content"
+  }, react_default.a.createElement("h1", {
+    className: "title"
+  }, "SNEAKERS"), react_default.a.createElement("span", {
+    className: "subtitle"
+  }, "SHOP NOW"))), react_default.a.createElement("div", {
+    className: "menu-item"
+  }, react_default.a.createElement("div", {
+    className: "content"
+  }, react_default.a.createElement("h1", {
+    className: "title"
+  }, "WOMEN'S"), react_default.a.createElement("span", {
+    className: "subtitle"
+  }, "SHOP NOW"))), react_default.a.createElement("div", {
+    className: "menu-item"
+  }, react_default.a.createElement("div", {
+    className: "content"
+  }, react_default.a.createElement("h1", {
+    className: "title"
+  }, "MEN'S"), react_default.a.createElement("span", {
+    className: "subtitle"
+  }, "SHOP NOW")))));
+};
+
+/* harmony default export */ var homepage_component = (homepage_component_HomePage);
+// EXTERNAL MODULE: ./src/components/homepage.styles.scss
+var homepage_styles = __webpack_require__(16);
+
 // CONCATENATED MODULE: ./src/App.js
+
+
 
 
 
@@ -790,7 +853,7 @@ function (_Component) {
     value: function render() {
       return react_default.a.createElement("div", {
         className: "App"
-      }, react_default.a.createElement("h1", null, "Welcome to ShareShop"));
+      }, react_default.a.createElement("h1", null, "Welcome to ShareShop"), react_default.a.createElement(homepage_component, null));
     }
   }]);
 
