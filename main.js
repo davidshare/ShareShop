@@ -824,15 +824,17 @@ var MenuItem_MenuItem = function MenuItem(_ref) {
       imageUrl = _ref.imageUrl,
       size = _ref.size;
   return react_default.a.createElement("div", {
-    className: "".concat(size, " menu-item"),
+    className: "".concat(size, " menu-item")
+  }, react_default.a.createElement("div", {
+    className: "background-image",
     style: {
       backgroundImage: "url(".concat(imageUrl, ")")
     }
-  }, react_default.a.createElement("div", {
+  }), react_default.a.createElement("div", {
     className: "content"
   }, react_default.a.createElement("h1", {
     className: "title"
-  }, title), react_default.a.createElement("span", {
+  }, title.toUpperCase()), react_default.a.createElement("span", {
     className: "subtitle"
   }, "SHOP NOW")));
 };
