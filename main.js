@@ -964,7 +964,7 @@ function (_Component) {
     value: function render() {
       return react_default.a.createElement("div", {
         className: "App"
-      }, react_default.a.createElement("h1", null, "Welcome to ShareShop"), react_default.a.createElement(homepage_component, null));
+      }, react_default.a.createElement(homepage_component, null));
     }
   }]);
 
