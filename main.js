@@ -3816,7 +3816,7 @@ var App_App = function App() {
 
 
 
-Object(react_dom["render"])(react_default.a.createElement(react_router_dom_BrowserRouter, {
+Object(react_dom["render"])(react_default.a.createElement(react_router_dom_HashRouter, {
   basename: "/"
 }, react_default.a.createElement(src_App_0, null)), document.getElementById("root"));
 
