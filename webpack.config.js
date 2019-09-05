@@ -21,6 +21,7 @@ module.exports = {
 	},
 	devtool: "source-maps",
 	devServer: {
+		historyApiFallback: true,
 		contentBase: path.join(__dirname, 'src'),
 		watchContentBase: true,
 		hot: true, // the changes should reflect without refreshing the page
