@@ -3802,8 +3802,8 @@ var App_App = function App() {
     className: "App"
   }, react_default.a.createElement(react_router_Switch, null, react_default.a.createElement(react_router_Route, {
     path: "/",
-    exact: true,
-    component: homepage_component
+    component: homepage_component,
+    exact: true
   }), react_default.a.createElement(react_router_Route, {
     path: "/hats",
     component: App_HatsPage
@@ -3816,7 +3816,9 @@ var App_App = function App() {
 
 
 
-Object(react_dom["render"])(react_default.a.createElement(react_router_dom_BrowserRouter, null, react_default.a.createElement(src_App_0, null)), document.getElementById("root"));
+Object(react_dom["render"])(react_default.a.createElement(react_router_dom_BrowserRouter, {
+  basename: "/"
+}, react_default.a.createElement(src_App_0, null)), document.getElementById("root"));
 
 /***/ })
 /******/ ]);
