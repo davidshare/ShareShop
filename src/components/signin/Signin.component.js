@@ -22,33 +22,36 @@ class Signin extends Component {
 
 	render(){
 		return (
-			<div className='signin'>
-				<h2 className='title'>I aready have an account</h2>
-				<span>Signin with your email and password</span>
-				<form onSubmit={this.handleSubmit}>
-					<FormInput
-						name='email'
-						value={this.state.email}
-						type='email'
-						handleChange={this.handleChange}
-						label='email'
-						required
-					/>
+      <div className="signin">
+        <h2 className="title">I aready have an account</h2>
+        <span>Signin with your email and password</span>
+        <form onSubmit={this.handleSubmit}>
+          <FormInput
+            name="email"
+            value={this.state.email}
+            type="email"
+            handleChange={this.handleChange}
+            label="email"
+            required
+          />
 
-					<FormInput
-						name='password'
-						value={this.state.password}
-						type='password'
-						handleChange={this.handleChange}
-						label='password'
-						required
+          <FormInput
+            name="password"
+            value={this.state.password}
+            type="password"
+            handleChange={this.handleChange}
+            label="password"
+            required
 					/>
-
-					<CustomButton type='submit'>Signin</CustomButton>
-					<CustomButton onClick={signInWithGoogle}>Signin with google</CustomButton>
-				</form>
-			</div>
-		);
+					<div className='buttons'>
+						<CustomButton type="submit">Signin</CustomButton>
+						<CustomButton onClick={signInWithGoogle} isGoogleSignin>
+						Google Signin
+						</CustomButton>
+					</div>
+        </form>
+      </div>
+    );
 	}
 }
 
